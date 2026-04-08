@@ -62,3 +62,9 @@
     <li>CSS</li>
     <li>JavaScript</li>
 </ul>
+
+<p>Licença:</p>
+
+Este projeto está sob a licença MIT.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
