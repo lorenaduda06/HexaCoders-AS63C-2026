@@ -16,14 +16,12 @@
     Nosso intuito é desenvolver uma solução focada na modernização da gestão de estabelecimentos de estética, a partir do uso de uma plataforma centralizada que possibilite otimizar a conexão entre clientes e profissionais.
 </p>
 
-<p>
-    <strong>Problema:</strong>
-    <ul>
-        <li>Conflitos de horários (marcações duplas).</li>
-        <li>Esquecimentos e ausências não comunicadas.</li>
-        <li>Perda de tempo em comunicações manuais para confirmar agendamentos.</li>
-    </ul>
-</p>
+<strong>Problema:</strong>
+<ul>
+    <li>Conflitos de horários (marcações duplas).</li>
+     <li>Esquecimentos e ausências não comunicadas.</li>
+    <li>Perda de tempo em comunicações manuais para confirmar agendamentos.</li>
+</ul>
 
 <p>
     <strong>Solução:</strong>
