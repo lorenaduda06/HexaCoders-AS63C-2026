@@ -1,7 +1,5 @@
 <h1>Sistema de Agendamento para Espaço de Beleza</h1>
 
-<p>Projeto da disciplina de Desenvolvimento Ágil - UTFPR</p>
-
 <strong>HexaCoders</strong>
 <p>Equipe:</p>
 <p>Caelayne Aparecida Ribeiro Soares</p>
@@ -11,10 +9,23 @@
 <p>Matheus Araújo de Oliveira</p>
 <p>Renan Cáceres Anselmo</p>
 
+<h3>Disciplina: Desenvolvimento Ágil</h3>
+<p>Curso: Análise e Desenvolvimento de Sistemas - UTFPR</p>
+<p>2026/01</p>
+
 <h2>Descrição do Projeto</h2>
 <p>
     Nosso intuito é desenvolver uma solução focada na modernização da gestão de estabelecimentos de estética, a partir do uso de uma plataforma centralizada que possibilite otimizar a conexão entre clientes e profissionais.
 </p>
+
+<h2>Objetivos Específicos: </h2>
+<ul>
+    <li>Oferecer um processo de agendamento simples, rápido e acessível.</li>
+    <li>Centralizar as informações de horários, serviços e profissionais em uma única plataforma.</li>
+    <li>Reduzir falhas de comunicação e conflitos de agenda.</li>
+    <li>Proporcionar autonomia ao cliente na escolha de horários e serviços.</li>
+    <li>Facilitar a gestão da agenda por parte dos prestadores de serviço.</li>
+</ul>
 
 <strong>Problema:</strong>
 <ul>
@@ -27,15 +38,6 @@
     <strong>Solução:</strong>
     Interface intuitiva que proporcione UX satisfatória, autonomia ao cliente e controle total ao prestador de serviço.
 </p>
-
-<h2>Objetivos Específicos: </h2>
-<ul>
-    <li>Oferecer um processo de agendamento simples, rápido e acessível.</li>
-    <li>Centralizar as informações de horários, serviços e profissionais em uma única plataforma.</li>
-    <li>Reduzir falhas de comunicação e conflitos de agenda.</li>
-    <li>Proporcionar autonomia ao cliente na escolha de horários e serviços.</li>
-    <li>Facilitar a gestão da agenda por parte dos prestadores de serviço.</li>
-</ul>
 
 <h2>Escopo e Funcionalidades</h2>
 <h3>Cadastro de Usuários</h3>
@@ -52,6 +54,12 @@
 
 <h3>Listagem de Agendamentos Realizados</h3>
 <p>O sistema disponibilizará um histórico de agendamentos para ambos os perfis, permitindo o acompanhamento de atendimentos passados e futuros de maneira organizada.</p>
+
+<h2>Público-alvo</h2>
+<ul>
+    <li>Profissionais e estabelecimentos de estética.</li>
+    <li>Clientes que desejam agendar serviços de forma prática.</li>
+</ul>
 
 <h2>Tecnologias utilizadas:</h2>
 
