@@ -57,6 +57,23 @@ Centraliza agendamentos, clientes, serviços e fluxo financeiro em uma interface
 
 ---
 
+## 📋 Sumário
+
+### 📁 Requisitos de Usuário
+- 📄 [Requisitos Funcionais (RF)](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Requisitos%20de%20Usu%C3%A1rio/RF.md)
+- 📄 [Requisitos Não Funcionais (RNF)](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Requisitos%20de%20Usu%C3%A1rio/RNF.md)
+- 📄 [Histórias de Usuário](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Requisitos%20de%20Usu%C3%A1rio/HistoriasUsuarios.md)
+
+### 📁 Requisitos de Sistemas
+- 📄 [Requisitos de Usuários](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Requisitos%20de%20Sistemas/ReqUsuarios.md)
+
+### 📁 Protótipo
+- 📄 [index.html](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Prototipo/index.html)
+- 🎨 [style.css](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Prototipo/style.css)
+- ⚙️ [script.js](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Prototipo/script.js)
+
+---
+
 ## 📄 Licença
 
 Este projeto está sob a licença MIT. ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
