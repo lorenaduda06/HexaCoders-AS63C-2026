@@ -84,20 +84,43 @@
         </div>
 
       </div>
-    </div><!-- fim tela-agenda -->
-
-
-    <!-- ======================== -->
-    <!--   TELAS PLACEHOLDER      -->
-    <!-- ======================== -->
-    <div id="tela-clientes" class="tela">
-      <div class="top-bar"><div class="titulo">Clientes</div></div>
-      <div class="conteudo">
-        Esta tela é responsabilidade do Matheus.
+    </div><div id="tela-clientes" class="tela">
+      <div class="top-bar">
+        <div>
+          <div class="titulo">Clientes</div>
+          <div class="subtitulo">Gerenciamento de fichas e contatos</div>
+        </div>
+        <button class="bt-agendar" onclick="abrirModal('cliente')">+ Novo Cliente</button>
       </div>
-    </div>
+      
+      <div class="conteudo">
+        <div class="barra-busca">
+          <input type="text" class="inp-campo" placeholder="🔍 Buscar por nome ou telefone..." id="busca-cliente">
+        </div>
 
-    <div id="tela-servicos" class="tela">
+        <table class="tabela-estilizada">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Último Procedimento</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody id="lista-clientes-corpo">
+            <tr>
+              <td>Ana Paula Silva</td>
+              <td>(43) 99123-4567</td>
+              <td>Limpeza de Pele (20/04)</td>
+              <td>
+                <button class="bt-icone">✏️</button>
+                <button class="bt-icone">📋</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div><div id="tela-servicos" class="tela">
       <div class="top-bar"><div class="titulo">Serviços</div></div>
       <div class="conteudo">
         Esta tela é responsabilidade da Caelayne.
@@ -112,17 +135,44 @@
     </div>
 
     <div id="tela-caixa" class="tela">
-      <div class="top-bar"><div class="titulo">Fluxo de Caixa</div></div>
-      <div class="conteudo">
-        Esta tela é responsabilidade do Matheus.
+      <div class="top-bar">
+        <div>
+          <div class="titulo">Fluxo de Caixa</div>
+          <div class="subtitulo">Controle de entradas e saídas</div>
+        </div>
       </div>
-    </div>
 
+      <div class="conteudo">
+        <div class="cards-financeiro">
+          <div class="card-fin entrada">
+            <div class="lb-fin">Entradas (Mês)</div>
+            <div class="vlr-fin">R$ 4.250,00</div>
+          </div>
+          <div class="card-fin saida">
+            <div class="lb-fin">Saídas (Mês)</div>
+            <div class="vlr-fin">R$ 850,00</div>
+          </div>
+          <div class="card-fin saldo">
+            <div class="lb-fin">Saldo Atual</div>
+            <div class="vlr-fin">R$ 3.400,00</div>
+          </div>
+        </div>
 
-    <!-- ======================== -->
-    <!--   TELA: RETORNO          -->
-    <!-- ======================== -->
-    <div id="tela-retorno" class="tela">
+        <div class="secao-extrato">
+          <div class="titulo-secao">Últimas Movimentações</div>
+          <div class="lista-movimentos">
+            <div class="item-mov">
+              <span>21/04 - Design de Sobrancelha (Maria H.)</span>
+              <span class="vlr-positivo">+ R$ 50,00</span>
+            </div>
+            <div class="item-mov">
+              <span>20/04 - Compra de Materiais (Fornecedor X)</span>
+              <span class="vlr-negativo">- R$ 120,00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><div id="tela-retorno" class="tela">
       <div class="top-bar">
         <div>
           <div class="titulo">Retorno de Clientes</div>
@@ -132,7 +182,7 @@
 
       <div class="conteudo">
 
-        <!-- Cards de resumo numérico -->
+                <!-- Cards de resumo numérico -->
         <div class="resumo-retorno">
           <div class="card-resumo-retorno">
             <div class="num-resumo" id="num-hoje">0</div>
@@ -152,7 +202,7 @@
           </div>
         </div>
 
-        <!-- Filtros -->
+         <!-- Filtros -->
         <div class="filtros">
           <div class="filtro ativo" onclick="filtroRetorno('todas', this)">Todas</div>
           <div class="filtro" onclick="filtroRetorno('hoje', this)">Hoje</div>
@@ -161,22 +211,17 @@
           <div class="filtro" onclick="filtroRetorno('vencidas', this)">Vencidas</div>
         </div>
 
-        <!-- Lista de clientes para retorno -->
         <div id="lista-retorno"></div>
 
       </div>
-    </div><!-- fim tela-retorno -->
+    </div></div></div><div id="modal-agendar" class="fundo-modal" onclick="fecharJanela(event)">
 
-  </div><!-- fim .main -->
-</div><!-- fim .app -->
-
-
-<!-- ========================== -->
+      <!-- ========================== -->
 <!--   MODAIS                   -->
 <!-- ========================== -->
 
 <!-- Modal: Novo Agendamento -->
-<div id="modal-agendar" class="fundo-modal" onclick="fecharJanela(event)">
+ <div id="modal-agendar" class="fundo-modal" onclick="fecharJanela(event)"></div>
   <div class="modal">
     <div class="titulo-modal">📅 Novo Agendamento</div>
 
