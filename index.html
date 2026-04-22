@@ -51,8 +51,8 @@
         <div id="tela-agenda" class="tela ativa">
           <div class="top-bar">
             <div>
-                <div class="titulo">Agenda</div>
-                <div class="subtitulo" id="subtitulo-data">Carregando...</div>
+              <div class="titulo">Agenda</div>
+              <div class="subtitulo" id="subtitulo-data">Carregando...</div>
             </div>
             <button class="bt-rosa" onclick="marcarData('agendar')">+ Novo Agendamento</button>
           </div>
@@ -78,9 +78,9 @@
 
             <!-- Aviso de baixa -->
             <div class="finalizados-do-dia">
-                <strong>Baixa do dia</strong> — ao final de cada atendimento, clique no card para marcá-lo como 
-                <span class="etiqueta etiqueta-verde">✓ realizado</span> ou 
-                <span class="etiqueta etiqueta-vermelho">✕ cancelado</span>.
+              <strong>Baixa do dia</strong> — ao final de cada atendimento, clique no card para marcá-lo como 
+              <span class="etiqueta etiqueta-verde">✓ realizado</span> ou 
+              <span class="etiqueta etiqueta-vermelho">✕ cancelado</span>.
             </div>
 
           </div>
@@ -235,7 +235,6 @@
         </div>
       </div><!-- fim tela-consumo -->
 
-      <!---->
       <!-- ======================== -->
       <!--   TELA: FLUXO DE CAIXA   -->
       <!-- ======================== -->
@@ -336,53 +335,53 @@
 
     <!-- Modal: Novo Agendamento -->
     <div id="modal-agendar" class="fundo-modal" onclick="fecharJanela(event)">
-        <div class="modal">
-          <div class="titulo-modal">📅 Novo Agendamento</div>
+      <div class="modal">
+        <div class="titulo-modal">📅 Novo Agendamento</div>
 
+        <div class="campo">
+          <label class="lb-campo">Buscar cliente</label>
+          <input class="inp-campo" type="text" placeholder="Digite o nome..." oninput="autocomplete(this.value)" id="campo-cliente" />
+          <div class="lista-autocomplete" id="lista-autocomplete" style="display:none;"></div>
+        </div>
+
+        <div class="campo">
+          <label class="lb-campo">Serviço</label>
+          <select class="inp-campo" id="sel-servico">
+            <option value="">Selecione um serviço...</option>
+            <option value="Limpeza de Pele">Limpeza de Pele — R$ 150,00</option>
+            <option value="Design de Sobrancelha">Design de Sobrancelha — R$ 50,00</option>
+            <option value="Peeling Químico">Peeling Químico — R$ 220,00</option>
+            <option value="Hidratação Facial">Hidratação Facial — R$ 120,00</option>
+          </select>
+        </div>
+
+        <div class="linha-campos">
           <div class="campo">
-            <label class="lb-campo">Buscar cliente</label>
-            <input class="inp-campo" type="text" placeholder="Digite o nome..." oninput="autocomplete(this.value)" id="campo-cliente" />
-              <div class="lista-autocomplete" id="lista-autocomplete" style="display:none;"></div>
+            <label class="label-campo">Data</label>
+            <input class="input-campo" type="date" id="input-data-ag" />
           </div>
-
           <div class="campo">
-            <label class="lb-campo">Serviço</label>
-            <select class="inp-campo" id="sel-servico">
-              <option value="">Selecione um serviço...</option>
-              <option value="Limpeza de Pele">Limpeza de Pele — R$ 150,00</option>
-              <option value="Design de Sobrancelha">Design de Sobrancelha — R$ 50,00</option>
-              <option value="Peeling Químico">Peeling Químico — R$ 220,00</option>
-              <option value="Hidratação Facial">Hidratação Facial — R$ 120,00</option>
+            <label class="lb-campo">Horário</label>
+            <select class="inp-campo" id="inp-hora-ag">
+              <option value="">--</option>
+              <option>08:00</option>
+              <option>09:00</option>
+              <option>10:00</option>
+              <option>11:00</option>
+              <option>12:00</option>
+              <option>13:00</option>
+              <option>14:00</option>
+              <option>15:00</option>
+              <option>16:00</option>
             </select>
           </div>
-
-          <div class="linha-campos">
-            <div class="campo">
-              <label class="label-campo">Data</label>
-              <input class="input-campo" type="date" id="input-data-ag" />
-            </div>
-            <div class="campo">
-              <label class="lb-campo">Horário</label>
-              <select class="inp-campo" id="inp-hora-ag">
-                <option value="">--</option>
-                <option>08:00</option>
-                <option>09:00</option>
-                <option>10:00</option>
-                <option>11:00</option>
-                <option>12:00</option>
-                <option>13:00</option>
-                <option>14:00</option>
-                <option>15:00</option>
-                <option>16:00</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="rodape-modal">
-            <button class="bt-cinza" onclick="cancelarNovoAgendamento()">Cancelar</button>
-            <button class="bt-rosa" onclick="salvarAgendamento()">Agendar</button>
-          </div>
         </div>
+
+        <div class="rodape-modal">
+          <button class="bt-cinza" onclick="cancelarNovoAgendamento()">Cancelar</button>
+          <button class="bt-rosa" onclick="salvarAgendamento()">Agendar</button>
+        </div>
+      </div>
     </div><!-- fim modal-agendar -->
 
     <!-- Modal: Detalhe do Agendamento -->
