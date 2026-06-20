@@ -72,6 +72,8 @@ Centraliza agendamentos, clientes, serviços e fluxo financeiro em uma interface
 - 🎨 [style.css](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Prototipo/style.css)
 - ⚙️ [script.js](https://github.com/lorenaduda06/HexaCoders-AS63C-2026/blob/main/Prototipo/script.js)
 
+### 🎥 Apresentação do Projeto
+- ▶️ [Vídeo de Apresentação](https://drive.google.com/file/d/1Lwlt7dTC8NsqWP-AEEdMOjARG9H6MGew/view?usp=sharing)
 ---
 
 ## 📄 Licença
